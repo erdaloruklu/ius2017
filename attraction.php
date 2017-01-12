@@ -2,7 +2,9 @@
 <div class="row-fluid">
         <div class="span12">
             <img style="padding:0px; width:975px" src="img/hero_inauguration-hotel-deals_bigstock-ddc-rights_1600x432.jpg" ></img>
-	</div><!--/span-->
+            <p style="font-size:70%;" align="right">courtesy of washington.org</p>
+            
+        </div><!--/span-->
 </div>	
 <div class="row-fluid">
 	<div class="span12">
