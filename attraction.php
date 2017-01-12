@@ -11,7 +11,7 @@
                 </p>
                 <p>Washington, D.C. has shopping, dining, and nightlife befitting a world-class metropolis. Travellers will find the city to be exciting, cosmopolitan, and international.
                 At the heart of any trip to Washington, D.C. is a visit to the National Mall, a two-mile green expanse from the U.S. Capitol Building to the Lincoln Memorial.  Along the way, visitors see the Washington Monument, the Vietnam Veterans Memorial, the Korean War Memorial, the World War II Memorial, the Jefferson Memorial, the Franklin Delano Roosevelt Memorial and the Martin Luther King, Jr. Memorial. </p>
-		<p><a href="visitors%20guide.pdf"> <img class="img-rounded" src="img/visitorsguide.jpg" style="width:200px; margin: 0 1em .25em 1em; border: 1px solid black;" > </img> </a></p>
+                <p><a href="press/visitors guide.pdf"> <img class="img-rounded" src="img/visitorsguide.jpg" style="width:200px; margin: 0 1em .25em 1em; border: 1px solid black;" > </img> </a></p>
 		<p> You can download a Visitor's Guide to Washington D.C. by clicking the picture above. Visit <strong> <a href=https://washington.org/> Washington.org </a> </strong> for more information. </p>
 	</div><!--/span-->
 
