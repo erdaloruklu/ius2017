@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>2017 IEEE International Ultrasonics Symposium (IUS) - Washington, D.C. United States</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css">
+		body {
+			padding-bottom: 40px;
+			padding-top: 15px;
+		}
+		.btn {
+			color: blue;
+			font-weight: bold;
+		}
+		a {
+		color: blue;
+		}
+		@media print {
+			 .no-print {
+	display: none;
+			 }
+		}
+		@media(max-width:767px){
+			.affix {
+				position: static;
+				width: auto;
+			}
+		}
+		.unavail {
+			color: red;
+		}
+		.inprogress {
+			color: orange;
+		}
+		</style>
+
+		<script src="jquery-2.0.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script>
+		function changeClass() {
+			var pat = /(.*)\/(.*).php/;
+			var index_pat = /(.*)\/(index.php|$)/;
+
+			try { document.getElementById(window.location.pathname.match(pat)[2]).setAttribute("class","active");}
+			catch(err) {}
+			if (!window.location.pathname.match(index_pat)) {
+				document.getElementById("banner").setAttribute("src","img/ius2017-halfwithlogo.png");
+			}
+		}
+		$(document).ready(function(){
+		<!-- This fixes the sidebar to float with the content -->
+		if ( $(window).width() > 500) {
+			$('#navbar').affix({
+				offset: {
+					top: -1
+				}
+			});
+		}
+		});
+		window.onload = changeClass;
+		</script>
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/ico/apple-touch-icon-114-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="bootstrap/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div id="navbar" class="span3">
+					<div class="well sidebar-nav no-print">
+						<ul class="nav nav-list">
+							<li class="nav-header" style="color:black"> Welcome</li>
+							<li id="index"><a href="index.php"> 2017 IUS Home</a></li>
+							<li id="committee"><a href="committee.php"> Organizing Committee</a></li>
+							<li id="tpc"><a href="tpc.php"> Technical Program Committee</a></li>
+							<li id="press"><a href="press.php"> Press Releases</a></li>
+							<li class="nav-header" style="color:black"> Technical Program </li>
+							<li id="deadlines"><a href="deadlines.php"> Schedule and Deadlines </a></li>
+							<li id="cfp"><a href="cfp.php"> Call For Papers </a></li>
+							<li id="program"><a href="program.php">Symposium Program & Abstract Books </a></li>
+                                                        <li id="special"><a href="special.php"> Ultrasonics Special Issue Publication </a> </li>
+							<li id="prep"><a href="prep.php#tab_abstract"> Submission Guidelines </a></li>
+							<li id="awards"><a href="awards.php"> Ultrasonics Awards </a></li>
+							<li id="students"><a href="students.php"> Student Paper Competition </a></li>
+							<li id="courses"><a href="courses.php"> Short Courses </a></li>
+							<li id="talks"><a href="talks.php"> Plenary & Invited Speakers </a></li>
+							<li id="register"><a href="register.php"> Registration </a></li>
+							<li id="women"><a href="women.php"> IEEE Women in Engineering </a> </li> 
+							<li class="nav-header" style="color:black"> Travel Information </li>
+							<li id="venue"><a href="venue.php"> Venue Information </a></li>
+							<li id="hotels"><a href="hotels.php"> Hotel Reservations </a></li>
+							<li id="attraction"><a href="attraction.php"> Attractions / Social Events </a></li>
+							<li id="assistance"><a href="assistance.php"> Visas </a></li>
+							<li class="nav-header" style="color:black"> Sponsors & Exhibitors </li>
+							<li id="exhibit"><a href="exhibit.php"> Exhibitor Application & Information </a></li>
+
+							<li><a href="http://www.ieee.org"> IEEE </a> </li>
+							<li><a href="http://www.ieee-uffc.org"> UFFC </a></li>
+						</ul>
+					</div><!--/.well -->
+				</div><!--/span-->
+				<div class="span8 offset3"> 
+					<p class="text-center">
+					<img id=banner class="img-rounded no-print" src="img/ius2017banner.png" style="width:1000px" alt="IEEE International Ultrasonics Symposium - Washington, D.C. - September 6-9 2017">
+					</p>
